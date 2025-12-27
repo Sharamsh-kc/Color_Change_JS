@@ -4,6 +4,10 @@ body{
     height: 100%;
     overflow: hidden; 
     background-color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
 }
 .main
 {
@@ -17,4 +21,11 @@ body{
 
 .box {
     transition: transform 0.3s ease, filter 0.3s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box h3{
+    margin-top: 23vh;
 }
