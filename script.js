@@ -47,9 +47,9 @@ box.forEach(box =>
 {   box.style.position = "relative";
     // const img = document.createElement("img");
     const text = document.createElement("h3");
-    text.textContent = `This color code is: ${choose()}`;
     box.addEventListener('mouseenter', () =>
-    {  
+    {   
+        text.textContent = `This color code is: ${choose()}`;
         if (box.classList.contains("item_1")) {
             // img.src = images[0];
             // img.alt = "default";
@@ -116,4 +116,5 @@ box.forEach(box =>
     });
 }
 );
+
 
